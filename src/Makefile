@@ -12,6 +12,9 @@ endif
 CFLAGS += -fno-stack-protector
 CFLAGS += -I$(TOP)/include
 
+CFLAGS += -std=gnu99
+
+
 libfiles += dir.o
 libfiles += disk.o
 libfiles += entry.o
